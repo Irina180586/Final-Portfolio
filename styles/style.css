@@ -1,0 +1,159 @@
+/* Global Styles */
+html {
+   font-size: 18px;  
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: #F7F8FA;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+}
+
+/* h5 {
+    color: #787171;
+} */
+
+h4 {
+    padding: 1.5rem;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.line-through {
+    text-decoration: line-through 3px;
+}
+
+.bio ul {
+    margin: 0px;
+}
+
+.bio ul h5 {
+    padding-top: 1rem;
+    
+}
+
+.bio li {
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+
+
+@media (max-width: 750px) {
+    html {
+    font-size: 16px;  
+    }
+}
+
+@media (max-width: 610px) {
+    html {
+    font-size: 12px;  
+    }
+
+    
+}
+
+/* End of Global Styles */
+
+
+
+/* Navigation */
+nav {
+    font-size: 1.8rem; 
+    margin-top: 3%;
+    margin-bottom: 10%;  
+}
+
+nav li {
+    padding-right: 40px;
+}
+
+.dropdown-menu {
+    background-color: #F7F8FA;
+    
+    
+}
+
+button {
+    margin-top: 1%;
+   
+}
+
+
+/* End of Navigation */
+
+
+/* Hero Box */
+.h5-homepage {
+    color: grey;
+}
+/* End of Hero Box */
+
+
+/* Footer */
+.footer {
+    margin-top: 10rem;
+  
+
+}
+
+/* End of Footer */
+
+
+/* Cards */
+.card {
+    background-color: #F7F8FA;
+    margin-top: 5rem;
+    border: hidden;
+}
+.card h3 {
+    padding-top: 10%;
+}
+/* End of Cards */
+
+
+
+/* Mobile view */
+@media (max-width: 767px) {
+    .bio .image-fluid{
+        width: 50%  !important;
+    }
+    /* h1 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .h5 {
+        font-size: 0.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+   
+    .vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    } */
+
+}
