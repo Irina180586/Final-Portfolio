@@ -21,9 +21,10 @@ h3 {
     font-weight: 400;
 }
 
-/* h5 {
-    color: #787171;
-} */
+h5 {
+    padding-top: 2rem;
+    padding-bottom: 0.3rem;
+} 
 
 h4 {
     padding: 1.5rem;
@@ -34,6 +35,17 @@ p {
     font-weight: 300;
     font-size: 1rem;
 }
+
+ul:not(.navbar-nav){
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+li{
+    
+}
+
 
 .line-through {
     text-decoration: line-through 3px;
@@ -129,21 +141,21 @@ button {
 
 /* Case Study Buttons */
 .p-probe:hover {
-    background-color: #a3c5c2;
+    background-color: #000280;
     border-color: transparent;
-    color: rgb(35, 35, 35);
+    color: rgb(255, 255, 255);
 }
 
 .presto:hover {
-    background-color: #85c280;
+    background-color: #000280;
     border-color: transparent;
-    color: rgb(35, 35, 35);
+    color: rgb(252, 252, 252);
 }
 
 .costco:hover {
-    background-color: #5eb0ea;
+    background-color: #000280;
     border-color: transparent;
-    color: rgb(35, 35, 35);
+    color: rgb(255, 255, 255);
 }
 
 /* Cards */
@@ -158,6 +170,20 @@ button {
 }
 
 /* End of Cards */
+
+
+
+
+/* About */
+.bio {
+    margin-top: 2rem;
+}
+ul contact {
+    margin: 5%;
+}
+
+/* End of About */
+
 
 
 
