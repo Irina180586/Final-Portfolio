@@ -117,7 +117,10 @@ button {
 
 /* Footer */
 .footer {
+    transition-delay: 0.5s;
     margin-top: 10rem;
+    transition-duration: 0.5s;
+    opacity: 0;
 }
 
 .project {
@@ -128,7 +131,6 @@ button {
 
 .project:hover {
     font-weight: 500;
-
     color: black
 }
 
@@ -202,5 +204,47 @@ ul contact {
     }
 
 
+
+}
+
+
+/* Animations */
+.bio {
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.f5 {
+    transition-duration: 0.7s;
+    opacity: 0;
+}
+
+.f1 {
+    transition-delay: 0;
+}
+
+.f2 {
+    transition-delay: 0.2s;
+}
+
+.f3 {
+    transition-delay: 0.4s;
+}
+
+.f4 {
+    transition-delay: 0.6s;
+}
+
+.f5 {
+    transition-delay: 0.8s;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
 
 }
