@@ -24,7 +24,7 @@ h3 {
 h5 {
     padding-top: 2rem;
     padding-bottom: 0.3rem;
-} 
+}
 
 h4 {
     padding: 1.5rem;
@@ -36,14 +36,10 @@ p {
     font-size: 1rem;
 }
 
-ul:not(.navbar-nav){
+ul:not(.navbar-nav) {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 1rem;
-}
-
-li{
-    
 }
 
 
@@ -92,8 +88,8 @@ nav {
     margin-bottom: 10%;
 }
 
-nav li {
-    padding-right: 40px;
+.nav-link {
+    padding-right: 40px !important;
 }
 
 .dropdown-menu {
@@ -124,6 +120,21 @@ button {
     margin-top: 10rem;
 }
 
+.project {
+    font-size: 1.5rem;
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.project:hover {
+    font-weight: 500;
+
+    color: black
+}
+
+
+
+
 .email-link {
     font-size: 1.1rem;
     text-decoration: none;
@@ -140,20 +151,10 @@ button {
 /* End of Footer */
 
 /* Case Study Buttons */
-.p-probe:hover {
-    background-color: #000280;
-    border-color: transparent;
-    color: rgb(255, 255, 255);
-}
-
-.presto:hover {
-    background-color: #000280;
-    border-color: transparent;
-    color: rgb(252, 252, 252);
-}
-
+.p-probe:hover,
+.presto:hover,
 .costco:hover {
-    background-color: #000280;
+    background-color: #343434;
     border-color: transparent;
     color: rgb(255, 255, 255);
 }
@@ -171,13 +172,20 @@ button {
 
 /* End of Cards */
 
+.pp-first {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
 
-
+.dropdown-menu {
+    transition: all 0.5s;
+}
 
 /* About */
 .bio {
     margin-top: 2rem;
 }
+
 ul contact {
     margin: 5%;
 }
@@ -193,26 +201,6 @@ ul contact {
         width: 50% !important;
     }
 
-    /* h1 {
-        font-size: 1.6rem;
-    }
 
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    .h5 {
-        font-size: 0.8rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-   
-    .vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-    } */
 
 }

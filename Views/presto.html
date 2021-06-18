@@ -8,13 +8,15 @@
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Pollution Probe</title>
+    <title>Presto</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="../Assets/Images/Logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <!--Header-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,23 +29,25 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbar2">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <!--ms-auto here to align right-->
                     <li class="nav-item dropdown">
                         <!-- <a class="nav-link active" aria-current="page" href="#">Work</a> -->
-                        <a class="nav-link active dropdown-toggle" href="../index.html" id="navbar2" role="button"
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Work
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbar2">
-                            <li><a class="dropdown-item" href="#">Pollution Probe Website Redesign</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../Views/PollutionProbe.html">Pollution Probe Website
+                                    Redesign</a></li>
                             <li><a class="dropdown-item" href="#">Presto</a></li>
-                            <li><a class="dropdown-item" href="#">Costco Homepage Redesigning Project</a></li>
+                            <li><a class="dropdown-item" href="../Views/costco.html">Costco Homepage Redesigning
+                                    Project</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Views/about.html">About</a>
+                        <a class="nav-link" href="../Views/about.html">About</a>
                     </li>
                 </ul>
             </div>
@@ -53,30 +57,32 @@
 
 
     <!--Title-->
-    <h1 style="text-align: center;">Presto Mobile App Planner</h1>
+    <h1 style="text-align: center; margin-bottom: 2rem;">Presto Mobile App Planner</h1>
     <!--End of Title-->
 
 
 
     <!--Overview-->
     <div class="section project overview">
-        <div class="row" style="background-color: aqua;">
-            <div class="col-lg-4 col-md-6" style="background-color: blue;">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-6">
                 <img class="img-fluid" src="../Assets/Images/Portfolio.png" alt="overview" width="400" height="500">
             </div>
 
-            <div class="col-lg-6 col-md-6">
-                <p>By putting essential trip planning features into a complete package, our new PRESTO app is designed to make the transit
-                planning process more efficient and easy to use.</p>
-            </div>    
+            <div class="col-lg-6 col-md-6 ">
+                <p>By putting essential trip planning features into a complete package, our new PRESTO app is designed
+                    to make the transit
+                    planning process more efficient and easy to use.</p>
+            </div>
         </div>
 
         <div class="row">
             <h5>My Role</h5>
-            <p>UX researcher/designer. With the team of three other designers I worked collaboratively on each stage of the process
-            that includes empathize, user research, definition and ideation, prototyping and testing stages.</p>
+            <p>UX researcher/designer. With the team of three other designers I worked collaboratively on each stage of
+                the process
+                that includes empathize, user research, definition and ideation, prototyping and testing stages.</p>
         </div>
-            
+
     </div>
     <!--End of Overview-->
 
@@ -85,15 +91,16 @@
     <!--Research-->
     <div class="row">
         <h4>Research</h4>
-        <p>We started our user research by condicting a survey using Google Forms. The goal was to study out how often users take
-        public transport and what tools they use to plan a commute.</p>
+        <p>We started our user research by condicting a survey using Google Forms. The goal was to study out how often
+            users take
+            public transport and what tools they use to plan a commute.</p>
         <p>HIGH IMPORTANCE QUESTIONS</p>
-        <ul> 
+        <ul>
             <li>When was the last time you took public transit?</li>
-        <li>How often do you take public transit?</li>
-        <li>Do you use any apps to plan your commute? If so, which?</li>
-        <li>Do you use multiple transit services for one trip? If so, which?</li>
-        <li>Are you satisfied with the level of service of your transit service?</li>
+            <li>How often do you take public transit?</li>
+            <li>Do you use any apps to plan your commute? If so, which?</li>
+            <li>Do you use multiple transit services for one trip? If so, which?</li>
+            <li>Are you satisfied with the level of service of your transit service?</li>
         </ul>
     </div>
 
@@ -107,11 +114,13 @@
     <div class="row">
         <h5>User Interviews</h5>
         <div class="col-lg-10">
-            <p>With data received from survey we’ve dived deeper into understanding the audience's experience and conducted user
-            interviews. The main obkectives of this stage were:</p>
+            <p>With data received from survey we’ve dived deeper into understanding the audience's experience and
+                conducted user
+                interviews. The main obkectives of this stage were:</p>
             <ul>
                 <li>To understand past and present experiences with transit commuting</li>
-                <li>To understand the kind of services interviewees currently use for a commute (ie. bus tracking apps)</li>
+                <li>To understand the kind of services interviewees currently use for a commute (ie. bus tracking apps)
+                </li>
                 <li>To understand the sort of issues or problems user face during the commute</li>
             </ul>
         </div>
@@ -120,15 +129,17 @@
     <div class="row">
         <h5>Insights</h5>
         <div class="col-lg-10">
-            <p>We conducted 5 user interviews and all responds and notes were synthetized using Insight Map and Affinity Diagram methods.</p>
+            <p>We conducted 5 user interviews and all responds and notes were synthetized using Insight Map and Affinity
+                Diagram methods.</p>
             <ul>
                 <li>To understand past and present experiences with transit commuting</li>
-                <li>To understand the kind of services interviewees currently use for a commute (ie. bus tracking apps)</li>
+                <li>To understand the kind of services interviewees currently use for a commute (ie. bus tracking apps)
+                </li>
                 <li>To understand the sort of issues or problems user face during the commute</li>
             </ul>
         </div>
     </div>
-    <div class="row">
+    <div class="row align-items-center">
         <div class="col-lg-8">
             <img class="img-fluid" src="../Assets/Images/Insights.png" alt="insights">
         </div>
@@ -141,8 +152,9 @@
     <div class="row">
         <h5>User Persona</h5>
         <div class="col-lg-10">
-            <p>Based on user interviews, we defined our User Persona as a one for whom commuting to work is not optional. So the
-            necessity to take public transport and be on time is highly important.</p>
+            <p>Based on user interviews, we defined our User Persona as a one for whom commuting to work is not
+                optional. So the
+                necessity to take public transport and be on time is highly important.</p>
         </div>
 
         <div class="col-lg-6">
@@ -156,147 +168,184 @@
 
 
     <!--Definition & Ideation-->
-        <div class="row">
-            <h4>Definition & Ideation</h4>
-            <p>With learning and studying the audience’s experience we compiled generalized User Insight, that was a base point in
+    <div class="row">
+        <h4>Definition & Ideation</h4>
+        <p>With learning and studying the audience’s experience we compiled generalized User Insight, that was a base
+            point in
             definig the Problem Statement.</p>
-            <p>Joseph wants a more efficient way of planning his commutes because, as of now, he finds himself using way too many apps
+        <p>Joseph wants a more efficient way of planning his commutes because, as of now, he finds himself using way too
+            many apps
             to do so.</p>
-            <h5>Feature Prioritization</h5>
-            <p>We put forward our proposes for problem’s solution and emphasized four major features we could elaborate.</p>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../Assets/Images/Presto_Feature_Prioritization_1.png" alt="feature_prioritization_1">
-            </div>
-            <p>While “View parking availability at stations” and “Ability to share funds through app” seem effective, nonetheless it
-            doesn’t solve current user’s need. Thence, we focused on adding scheduling and tracking functionalities to existing app.</p>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../Assets/Images/Presto_Feature_Prioritization_2.png" alt="feature_prioritization_2">
-            </div>
+        <h5>Feature Prioritization</h5>
+        <p>We put forward our proposes for problem’s solution and emphasized four major features we could elaborate.</p>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="../Assets/Images/Presto_Feature_Prioritization_1.png"
+                alt="feature_prioritization_1">
         </div>
+        <p>While “View parking availability at stations” and “Ability to share funds through app” seem effective,
+            nonetheless it
+            doesn’t solve current user’s need. Thence, we focused on adding scheduling and tracking functionalities to
+            existing app.</p>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="../Assets/Images/Presto_Feature_Prioritization_2.png"
+                alt="feature_prioritization_2">
+        </div>
+    </div>
 
-        <div class="row">
-            <h5>User Journey</h5>
-            <p>To evaluate at what particular moment our user feels frustrated we applied User Journey Map method. We found that
-            searching information using multiple resources and switching between them is both confusing and annoying. The climactic
-            bringdown happens when inconsistency in schedules and sometimes even absence of transport’s timetables cause missing the
+    <div class="row">
+        <h5>User Journey</h5>
+        <p>To evaluate at what particular moment our user feels frustrated we applied User Journey Map method. We found
+            that
+            searching information using multiple resources and switching between them is both confusing and annoying.
+            The climactic
+            bringdown happens when inconsistency in schedules and sometimes even absence of transport’s timetables cause
+            missing the
             bas or train.</p>
-            <div class="col-lg-6">
-                <img class="img-fluid" src="../Assets/Images/Presto_User_Journey.png" alt="user_journey">
-            </div>
+        <div class="col-lg-6">
+            <img class="img-fluid" src="../Assets/Images/Presto_User_Journey.png" alt="user_journey">
         </div>
+    </div>
 
-        <div class="row">
-            <h5>Problem Statement</h5>
-            <p>During the user interviews, we discovered that there is no go-to app for transit planning.
-            Therefore, we believe that accurate schedule planning is important and that we might be able to help if we can include
+    <div class="row">
+        <h5>Problem Statement</h5>
+        <p>During the user interviews, we discovered that there is no go-to app for transit planning.
+            Therefore, we believe that accurate schedule planning is important and that we might be able to help if we
+            can include
             that feature onto an existing app.
-            We might do this by improving the Presto app functionality with reliable scheduling features. Doing this will allow our
+            We might do this by improving the Presto app functionality with reliable scheduling features. Doing this
+            will allow our
             product to be the go-to app for GTA riders.</p>
-            <h5>Competitor Analysis</h5>
-            <p>To evaluate market we conducted Competitor Analysis. Our major contenders are Google Maps and Rocketman Mobile App. With
-            certain advantages that these services have we found number of issues, among them ransit times might not be the most
+        <h5>Competitor Analysis</h5>
+        <p>To evaluate market we conducted Competitor Analysis. Our major contenders are Google Maps and Rocketman
+            Mobile App. With
+            certain advantages that these services have we found number of issues, among them ransit times might not be
+            the most
             accurate at times, GPS detection can be iffy at times, won't update real-time location during travel.</p>
-            <div class="col-lg-6">
-                <img class="img-fluid" src="../Assets/Images/Presto_Competitor_Analysis.png" alt="competitor_analysis">
-            </div>
+        <div class="col-lg-6">
+            <img class="img-fluid" src="../Assets/Images/Presto_Competitor_Analysis.png" alt="competitor_analysis">
         </div>
+    </div>
 
     <!--End of Definition & Ideation-->
 
 
 
     <!--Wireframing & Prototyping-->
-        <div class="row">
-            <h4>Wireframing & Prototyping</h4>
-            <p>Since we work on a new feature for existing Presto app, we focused on designing and cohesiveness of this feature with
+    <div class="row">
+        <h4>Wireframing & Prototyping</h4>
+        <p>Since we work on a new feature for existing Presto app, we focused on designing and cohesiveness of this
+            feature with
             already existing functionalities.</p>
-            <h5>User Flow</h5>
-            <p>With new feature implemented our users will get an extra paths. We defined the user flow for interacting with new
+        <h5>User Flow</h5>
+        <p>With new feature implemented our users will get an extra paths. We defined the user flow for interacting with
+            new
             functionality.</p>
-            <div class="col-lg-6">
-                <img class="img-fluid" src="../Assets/Images/User_Flow.png" alt="user_flow">
-            </div>
-
+        <div class="col-lg-6">
+            <img class="img-fluid" src="../Assets/Images/User_Flow.png" alt="user_flow">
         </div>
 
-        <div class="row">
-            <h5>Sketching</h5>
-            <p>With started our desing stage with paper wireframing.</p>
-            
-            <div class="col-lg-6">
-                <img class="img-fluid" src="../Assets/Images/Wireframing.png" alt="wireframing">
-            </div>
+    </div>
 
-            <h5>Lo-Mid Fidelity Prototype</h5>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../Assets/Images/Lo_Fi.png" alt="lo_fi">
-            </div>
+    <div class="row">
+        <h5>Sketching</h5>
+        <p>With started our desing stage with paper wireframing.</p>
+
+        <div class="col-lg-6">
+            <img class="img-fluid" src="../Assets/Images/Wireframing.png" alt="wireframing">
         </div>
 
-        <div class="row">
-            <h5>Testing & Iteartions</h5>
-            <p>We conducted 5 usability tests, compiled the feedback and taking into account all the usability testing’s findings
-            completed iteration and transfered our prototypy into hi-fidelity version.</p>
-            <p>USABILITY TESTING NOTES</p>
-            <ul>
-                <li>“Register” button was not clear</li>
-                <li>Navigation bar was unclear with all the same icons</li>
-                <li>“Planner” section was a little hard to locate</li>
-                <li>Unclear if certain elements on options page were clickable</li>
-                <li>Unclear on what “Track” button would do</li>
-                <li>Unclear about bus times page</li>
-                <li>Filler text was a bit off-putting</li>
-                <li>Certain filler elements caused more confusion</li>
-            </ul>
-
-            <h5>Hi-Fidelity Prototype</h5>
-
-            <div class="col-lg-2">
-                <img class="img-fluid" src="../Assets/Images/Hi-Fi_1.png" alt="hi_fi_1">
-            </div>
-        
-            <div class="col-lg-6">
-                <img class="img-fluid" src="../Assets/Images/Hi-Fi_2.png" alt="hi_fi_2">
-            </div>
-        </div>
-
-        <div class="row">
-            <h5>Project Takeaways & Future Opportunities</h5>
-            <p>We have developed and added new functionings to the existing Presto Mobile App. Our new PRESTO trip planner feature is
-            designed to make the transit planning process more efficient and easy to use. And it does away with the need to have
-            multiple tools to commute in Toronto and GTA.</p>
-            <p>For further extention we consider build out some of the other mentioned features in the app (ie. Share funds, parking
-            spots availability).</p>
-        </div>
-<!--End of Wireframing & Prototyping-->
-
-<!--Footer-->
-<footer class="footer  pb-4 bg-light">
-    <div class="row links">
-        <div class="col">
-            <div class="row">
-
-                <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-2">
-                    <a class="email-link"
-                        href="https://drive.google.com/file/d/1n3N2F0VDuVDbtKS9IpGz_LiXDh_C2J0A/view?usp=sharing">Rèsumè</a>
-                </div>
-                <div class="col col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                    <a class="email-link" href="https://www.linkedin.com/in/irinagadimova/">LinkedIn</a>
-                </div>
-                <div class="col col-sm-3 col-md-2 col-lg-3 col-xl-2">
-                    <a class="email-link" href="https://github.com/Irina180586">GitHub</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col text-end text-bottom">
-            <a class="email-link" href="mailto:iriny.gadimova@gmail.com?subject=Hello%20Ira, %20let's%20chat!">
-                iriny.gadimova@gmail.com</a>
+        <h5>Lo-Mid Fidelity Prototype</h5>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="../Assets/Images/Lo_Fi.png" alt="lo_fi">
         </div>
     </div>
-</footer>
-<!--End of Footer-->
 
+    <div class="row">
+        <h5>Testing & Iteartions</h5>
+        <p>We conducted 5 usability tests, compiled the feedback and taking into account all the usability testing’s
+            findings
+            completed iteration and transfered our prototypy into hi-fidelity version.</p>
+        <p>USABILITY TESTING NOTES</p>
+        <ul>
+            <li>“Register” button was not clear</li>
+            <li>Navigation bar was unclear with all the same icons</li>
+            <li>“Planner” section was a little hard to locate</li>
+            <li>Unclear if certain elements on options page were clickable</li>
+            <li>Unclear on what “Track” button would do</li>
+            <li>Unclear about bus times page</li>
+            <li>Filler text was a bit off-putting</li>
+            <li>Certain filler elements caused more confusion</li>
+        </ul>
 
+        <h5>Hi-Fidelity Prototype</h5>
+
+        <div class="col-lg-2">
+            <img class="img-fluid" src="../Assets/Images/Hi-Fi_1.png" alt="hi_fi_1">
+        </div>
+
+        <div class="col-lg-6">
+            <img class="img-fluid" src="../Assets/Images/Hi-Fi_2.png" alt="hi_fi_2">
+        </div>
+    </div>
+
+    <div class="row">
+        <h5>Project Takeaways & Future Opportunities</h5>
+        <p>We have developed and added new functionings to the existing Presto Mobile App. Our new PRESTO trip planner
+            feature is
+            designed to make the transit planning process more efficient and easy to use. And it does away with the need
+            to have
+            multiple tools to commute in Toronto and GTA.</p>
+        <p>For further extention we consider build out some of the other mentioned features in the app (ie. Share funds,
+            parking
+            spots availability).</p>
+    </div>
+    <!--End of Wireframing & Prototyping-->
+
+    <div class="row pp-first">
+        <div class="col-md-6">
+            <a href="../Views/PollutionProbe.html" class="project" tabindex="-1" role="button" aria-disabled="true">
+                ᐊ View Previous Project</a>
+        </div>
+        <div class="col-md-6 text-end ">
+            <a href="../Views/costco.html" class="project" tabindex="-1" role="button" aria-disabled="true">
+                View Next Project ᐅ</a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer  pb-4 bg-light">
+        <div class="row links">
+            <div class="col">
+                <div class="row">
+
+                    <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-2">
+                        <a class="email-link"
+                            href="https://drive.google.com/file/d/1n3N2F0VDuVDbtKS9IpGz_LiXDh_C2J0A/view?usp=sharing">Rèsumè</a>
+                    </div>
+                    <div class="col col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                        <a class="email-link" href="https://www.linkedin.com/in/irinagadimova/">LinkedIn</a>
+                    </div>
+                    <div class="col col-sm-3 col-md-2 col-lg-3 col-xl-2">
+                        <a class="email-link" href="https://github.com/Irina180586">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col text-end text-bottom">
+                <a class="email-link" href="mailto:iriny.gadimova@gmail.com?subject=Hello%20Ira, %20let's%20chat!">
+                    iriny.gadimova@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+    <!--Separate Popper and Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
